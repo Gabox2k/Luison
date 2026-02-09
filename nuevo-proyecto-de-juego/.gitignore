@@ -1,0 +1,9 @@
+# Godot 4
+.idea/
+.vscode/
+*.import/
+*.tmp
+*.log
+*.cfg
+*.mono
+*.godot/mono/

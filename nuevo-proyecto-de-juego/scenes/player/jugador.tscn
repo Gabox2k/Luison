@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://bvk1ujn4ifxiw"]
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_c8qk1"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_fs8vq"]
+
+[node name="Jugador2" type="CharacterBody3D" unique_id=536836059]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=674775231]
+transform = Transform3D(10, 0, 0, 0, 0.1, 0, 0, 0, 50, 0, 0, 0)
+mesh = SubResource("PlaneMesh_c8qk1")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=2139226944]
+shape = SubResource("BoxShape3D_fs8vq")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=1911985926]
+transform = Transform3D(1, 0, 0, 0, 0.70710677, 0.70710677, 0, -0.70710677, 0.70710677, 0, 10, 0)
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=1596887425]
+transform = Transform3D(1, 0, 0, 0, 0.9396926, 0.34202012, 0, -0.34202012, 0.9396926, 0, 5, 10)
+fov = 179.0
