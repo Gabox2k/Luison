@@ -1,5 +1,5 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1770661409
+::res://::1770836780
 icon.svg::CompressedTexture2D::6637943192390016884::1770661229::1770661239::1::::<><><>0<>0<>7b0e0cdf6d2b353c7934f6358bac4642<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 README.md::TextFile::-1::1770660685::0::1::::<><><>0<>0<><>::
 ::res://assets/::1770660944
@@ -9,7 +9,9 @@ README.md::TextFile::-1::1770660685::0::1::::<><><>0<>0<><>::
 ::res://scenes/::1770660897
 ::res://scenes/enemies/::1770660891
 ::res://scenes/levels/::1770660897
-::res://scenes/player/::1770660878
+::res://scenes/player/::1770836758
+jugador.gd::GDScript::1540645352596700811::1770835516::0::1::::<>CharacterBody3D<><>0<>0<><>::
+jugador.tscn::PackedScene::3882645029443554954::1770836758::0::1::::<><><>0<>0<><>::
 ::res://scripts/::1770660929
 ::res://scripts/core/::1770660908
 ::res://scripts/enemies/::1770660929
